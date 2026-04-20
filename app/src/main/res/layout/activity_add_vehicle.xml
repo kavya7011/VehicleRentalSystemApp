@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Vehicle"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/vehicleIdInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Vehicle ID"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/modelInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Model Name"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/rateInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Daily Rate ($)"
+        android:inputType="number"
+        android:padding="12dp"
+        android:layout_marginBottom="20dp" />
+
+    <RadioGroup
+        android:id="@+id/vehicleTypeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/carRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car"
+            android:layout_marginEnd="20dp" />
+
+        <RadioButton
+            android:id="@+id/bikeRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bike" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/seatsInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Number of Seats"
+        android:inputType="number"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/bikeTypeInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Bike Type (Manual/Auto)"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/engineInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Engine Capacity (CC)"
+        android:inputType="number"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/vehicleImagePreview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:src="@android:drawable/ic_menu_camera"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/selectImageBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Select Image"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Add Vehicle" />
+
+</LinearLayout>

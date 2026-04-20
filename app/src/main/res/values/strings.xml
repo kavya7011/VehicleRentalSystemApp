@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vehicle Rental System</string>
+    <string name="app_logo">App Logo</string>
+    <string name="login_title">Vehicle Rental System</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="owner_login">Login as Owner</string>
+    <string name="customer_login">Login as Customer</string>
+    <string name="signup_title">Create Account</string>
+    <string name="name_hint">Full Name</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="register_as">Register as:</string>
+    <string name="owner">Owner</string>
+    <string name="customer">Customer</string>
+    <string name="signup_button">Sign Up</string>
+    <string name="back_to_login">Back to Login</string>
+</resources>

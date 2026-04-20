@@ -1,0 +1,61 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+*.DS_Store
+
+# Android Studio generated files and folders
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Android Studio/IntelliJ
+*.iml
+*.iws
+*.ipr
+out/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Services (if you use Firebase)
+google-services.json
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/Preview.html
+
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
